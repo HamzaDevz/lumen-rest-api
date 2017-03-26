@@ -1,5 +1,10 @@
 # Installation
 
+### Composer
+
+> Install dependencies
+`composer install`
+
 ### Mysql
 
 #### Setup environment
