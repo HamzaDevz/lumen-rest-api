@@ -11,5 +11,5 @@
 
 > configure host/port/credentials `root/.env`
 ----
-> Tables
+> Install tables (no more script sql required)
 `php artisan migrate:refresh`
