@@ -12,6 +12,8 @@ class User extends Model implements AuthenticatableContract, AuthorizableContrac
 {
     use Authenticatable, Authorizable;
 
+    public $table = 'Users';
+
     public static $rules = [
         'name' => 'required|string',
         'surname' => 'required|string',

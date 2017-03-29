@@ -4,6 +4,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Question extends Model {
 
+    public $table = 'Questions';
+
     protected $fillable = [
         "usr_id",
         "content",
