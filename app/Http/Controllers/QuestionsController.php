@@ -2,7 +2,7 @@
 
 class QuestionsController extends Controller {
 
-    const MODEL = "App\Question";
+    const MODEL = 'App\Question';
 
     use RESTActions;
 

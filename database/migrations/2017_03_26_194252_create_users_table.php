@@ -14,7 +14,8 @@ class CreateUsersTable extends Migration
             $table->string('surname');
             $table->string('password');
             $table->string('email')->unique();
-            $table->timestamps();
+            $table->timestamp('updated_at')->useCurrent();
+            $table->timestamp('created_at')->useCurrent();
         });
     }
 

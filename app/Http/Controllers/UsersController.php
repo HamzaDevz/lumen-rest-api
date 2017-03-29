@@ -2,7 +2,7 @@
 
 class UsersController extends Controller {
 
-    const MODEL = "App\User";
+    const MODEL = 'App\User';
 
     use RESTActions;
 
