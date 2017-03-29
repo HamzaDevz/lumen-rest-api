@@ -12,8 +12,7 @@ class CreateQuestionsTable extends Migration
             $table->increments('id');
             $table->integer('usr_id')->unsigned();
             $table->longText('content');
-            $table->timestamp('updated_at')->useCurrent();
-            $table->timestamp('created_at')->useCurrent();
+            $table->timestamps();
         });
     }
 
